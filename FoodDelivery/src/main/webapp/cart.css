@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+    background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  }
+  
+  .container {
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .if-container
+		{ 
+			 text-align: center;
+		}
+ .first-action
+        {
+         background: #f0b6b6;
+            color: #23272e;
+      border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            text-decoration: none;
+        
+        }
+  
+  h1 {
+    font-size: 1.5rem; /* Tailwind text-2xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .cart-item {
+    background-color: #ffffff; /* Tailwind bg-white */
+    padding: 1rem; /* Tailwind p-4 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+    margin-bottom: 1rem; /* Tailwind mb-4 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-img {
+    width: 5rem; /* Tailwind w-20 */
+    height: 5rem; /* Tailwind h-20 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    margin-right: 1rem; /* Tailwind mr-4 */
+  }
+  
+  .quantity-btn {
+    background-color: #e5e7eb; /* Tailwind bg-gray-200 */
+    color: #374151; /* Tailwind text-gray-700 */
+    padding: 0.5rem; /* Tailwind px-2 py-1 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    margin-right: 0.5rem; /* Tailwind mr-2 */
+  }
+  
+  .remove-btn {
+    background-color: #e4600f; /* Tailwind bg-red-500 */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 0.5rem 1rem; /* Tailwind px-4 py-2 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+  }
+  
+  .add-items-btn {
+    background-color: #3b82f6; /* Tailwind bg-blue-500 */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 0.75rem 1.5rem; /* Tailwind px-6 py-3 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+  }
+  
+  .checkout-btn {
+    background-color: #10b981; /* Tailwind bg-green-500 */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 0.75rem 1.5rem; /* Tailwind px-6 py-3 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+  }
+  
