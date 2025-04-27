@@ -30,3 +30,10 @@ Backend: Java (JEE, JSP, Servlets)
 Database: MySQL
 
 Server: Apache Tomcat
+
+Dependencies:
+JSP and Servlets for dynamic page generation and handling HTTP requests.
+
+JDBC for database interaction.
+
+MySQL for data storage.
